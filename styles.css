@@ -3,4 +3,10 @@
     width: 500px;
     background-image: linear-gradient(to bottom right, yellow,blue);
     border: 2px solid black;
+    transition: all 3s ease-in-out .5ms;
+}
+
+.box:hover {
+    width: 1000px;
+    height: 500px;
 }
